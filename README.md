@@ -4,9 +4,6 @@ A lightweight concurrent HTTP reconnaissance tool written in Go.
 
 HT-Detective sends HTTP requests to target hosts and extracts useful reconnaissance information including HTTP metadata, detected technologies, page titles, response headers, and other useful information in structured JSON format.
 
-![Go](https://img.shields.io/badge/Go-1.24+-00ADD8?logo=go)
-![License](https://img.shields.io/badge/License-MIT-green)
-
 ## Screenshot
 
 <p align="center">
