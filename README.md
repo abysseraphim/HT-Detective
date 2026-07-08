@@ -14,9 +14,9 @@ HT-Detective sends HTTP requests to target hosts and extracts useful reconnaissa
 
 ## Why?
 
-HT-Detective was built to automate common HTTP reconnaissance tasks while serving as a practical Go learning project.
+Web reconnaissance often begins with collecting HTTP-level information such as response headers, redirects, server fingerprints, technologies, and page metadata. Performing these checks manually across many targets quickly becomes inefficient.
 
-The project focuses on implementing worker pools, HTTP clients, HTML parsing, response analysis, technology fingerprinting, and structured JSON output without relying on external reconnaissance libraries.
+HT-Detective automates HTTP reconnaissance by gathering and structuring this information into machine-readable output, allowing security researchers and penetration testers to quickly understand a target's HTTP behavior before moving on to deeper testing.
 
 ---
 
